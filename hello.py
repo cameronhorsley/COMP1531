@@ -2,7 +2,7 @@
 
 import sys
 
-print("Hello, git!")
+#print("Hello, git!")
 
 #if (len(sys.argv) != 2):
 #	print ("Usage: %s <integer>" % sys.argv[0])
