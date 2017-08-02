@@ -1,1 +1,6 @@
 print("This is a git branch")
+<<<<<<< HEAD
+print("This is branch dev")
+=======
+print("This is branch master")
+>>>>>>> master
