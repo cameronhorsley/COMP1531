@@ -1,0 +1,23 @@
+#!/usr/bin/python
+
+import sys
+
+input = sys.argv[1]
+list = input.split(',')
+
+for x in range(0, len(list)):
+	list[x] = int(list[x])
+
+swapped = True
+
+while (swapped == True):
+	swapped = False
+	
+	for x in range(1, len(list)):
+		if (list[x-1] > list[x]) :
+			list[x-1], list[x] = list[x], list[x-1]
+			swapped = True
+			print(list)
+
+#print(list)
+

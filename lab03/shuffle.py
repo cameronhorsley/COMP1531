@@ -9,10 +9,11 @@ provided list
 """
 
 user_list = input("Put a few comma separated characters\n").split(',')
-
+#user_list = [1,2,3,4,5,6,7,8,9]
+#user_list = ['ted','bill',4,9,103]
 
 def shuffle(li):
-    # TODO
-    pass
+    random.shuffle(li)
+    return li
 
 print(shuffle(user_list))

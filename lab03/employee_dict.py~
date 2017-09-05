@@ -18,7 +18,7 @@ while True :
 	if line == '' :
 		break
 	id = int(line)
-	print ("\tAdding employee %d" % id)
+	print ("\tAdding employee ID %d" % id)
 	name = f.readline().strip()
 	salary = int(f.readline().strip())
 	start = f.readline().strip()
@@ -26,7 +26,7 @@ while True :
 	temp = { 'id' : id, 'name' : name, 'salary' : salary, 'start' : start }
 	dict[id] = temp
 
-print "EMPLOYEE DETAILS SAVED"
+print "EMPLOYEE DETAILS SAVED\n"
 
 # Function to find and display employee information based on ID
 def find_emp (id) :

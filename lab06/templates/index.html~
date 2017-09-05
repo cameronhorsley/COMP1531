@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+   <head>
+   <title>Calculator</title>
+   <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='calc.css') }}">
+   <script>
+   		function evaluate(display)	{ return eval(str(display)) }
+   		function sin(display) 		{ return Math.sin(display) }
+   		function tan(display) 		{ return Math.tan(display) }
+   		function cos(display) 		{ return Math.tan(display) }
+   		function log(display) 		{ return Math.tan(display) }
+   		function sqrt(display) 		{ return Math.sqrt(display) }
+   </script>
+   
+   <style>
+    hdkhaskdha
+   </style>
+   
+   	
+   </head>
+   
+   
+   <body>
+   <form name="Calculator">
+	<table>
+		<tr><input type="text" name="display" value='' style="height:50px;width:210px;font-size:20px;font-weight:bold;"></tr>
+      	<tr>
+			<td><input type="button" name="One" value=1 style="height:50px;width:50px;" onclick="display.value+=1"></td>
+      		<td><input type="button" name="Two" value=2 style="height:50px;width:50px" onclick="display.value+=2"></td>
+      		<td><input type="button" name="Three" value=3 style="height:50px;width:50px" onclick="display.value+=3"></td>
+      		<td><input type="button" name="C" value='C' style="height:50px;width:50px" onclick="display.value=display.value.substring(0, display.value.length-1);"></td>
+      	</tr><tr>
+			<td><input type="button" name="Four" value=4 style="height:50px;width:50px;" onclick="display.value+=4"></td>
+      		<td><input type="button" name="Five" value=5 style="height:50px;width:50px" onclick="display.value+=5"></td>
+      		<td><input type="button" name="Six" value=6 style="height:50px;width:50px" onclick="display.value+=6"></td>
+      		<td><input type="button" name="Plus" value='+' style="height:50px;width:50px" onclick="display.value+='+'"></td>
+      	</tr><tr>
+			<td><input type="button" name="Seven" value=7 style="height:50px;width:50px;" onclick="display.value+=7"></td>
+      		<td><input type="button" name="Eight" value=8 style="height:50px;width:50px" onclick="display.value+=8"></td>
+      		<td><input type="button" name="Nine" value=9 style="height:50px;width:50px" onclick="display.value+=9"></td>
+      		<td><input type="button" name="Minus" value='-' style="height:50px;width:50px" onclick="display.value+='-'"></td>
+      	</tr><tr>
+			<td><input type="button" name="Zero" value=0 style="height:50px;width:50px;" onclick="display.value+=0"></td>
+      		<td><input type="button" name="Mul" value='*' style="height:50px;width:50px" onclick="display.value+='*'"></td>
+      		<td><input type="button" name="Div" value='/' style="height:50px;width:50px" onclick="display.value+='/'"></td>
+      		<td><input type="button" name="Equals" value='=' style="height:50px;width:50px" onclick="display.value=eval(display.value)"></td>
+      	</tr><tr>
+			<td><input type="button" name="OpenBr" value='(' style="height:50px;width:50px;" onclick="display.value+='('"></td>
+      		<td><input type="button" name="CloseBr" value=')' style="height:50px;width:50px" onclick="display.value+=')'"></td>
+      		<td><input type="button" name="Sin" value='sin' style="height:50px;width:50px" onclick="display.value+='sin('"></td>
+      		<td><input type="button" name="Tan" value='tan' style="height:50px;width:50px" onclick="display.value+='tan('"></td>
+      	</tr><tr>
+			<td><input type="button" name="Cos" value='cos' style="height:50px;width:50px;" onclick="display.value+='cos('"></td>
+      		<td><input type="button" name="Log" value='log' style="height:50px;width:50px" onclick="display.value+='log('"></td>
+      		<td><input type="button" name="Sqrt" value='sqrt' style="height:50px;width:50px" onclick="display.value+='sqrt('"></td>
+      		<td><input type="button" name="CE" value='CE' style="height:50px;width:50px" onclick="display.value=''"></td>
+      	</tr>
+	</table>
+   </form>
+   </body>
+</html>
+

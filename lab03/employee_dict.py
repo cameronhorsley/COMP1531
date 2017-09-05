@@ -10,7 +10,7 @@ f = open(sys.argv[1], 'r')
 
 dict = {}
 
-print "ADDING EMPLOYEE DETAILS:"
+print ("ADDING EMPLOYEE DETAILS:")
 
 # Read input from file and store in nested dictionaries
 while True :

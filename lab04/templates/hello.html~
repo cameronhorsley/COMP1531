@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+   <head>
+   <title>Hello page</title>
+   </head>
+   <body>
+       {% for input in csv_input %}
+      <h1> Hi, <a href="{{ url_for('Hello/{{ input[0] }}') }}"> {{ input[0] }} </a>({{ input[1] }}, {{ input[2] }})</h1>
+      {% endfor %}
+   </body>
+   </html>

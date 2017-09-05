@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+   <head>
+   <title>Bubble Sort</title>
+   </head>
+   <body>
+      <h1> Enter comma-separated list of integers to be sorted: </h1>
+      <Form method="POST">
+         <input name="user_input" placeholder="Eg. 5,4,3,2,1"/>
+         <button type="submit" name="bt">Sort</button>
+      </Form>
+   </body>
+</html>
+

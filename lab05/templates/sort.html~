@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+   <head>
+   <title>Hello page</title>
+   </head>
+    <b>Sorting Process</b>
+    <br><br>
+    <b>All iterations of the bubble sort</b>
+    <br>
+    {% for list in to_print %}    
+    	{{ list }}
+    	<br>
+    {% endfor %}
+</html>
+
